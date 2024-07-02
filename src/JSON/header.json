@@ -1,0 +1,24 @@
+{
+    "store": [
+        { "href": "/", "label": "Home" },
+        { "href": "/Browse", "label": "Browse" },
+        { "href": "/Discover", "label": "Discover" },
+        { "href": "/Points-Shop", "label": "Points Shop" },
+        { "href": "/Curators", "label": "Curators", "notFound": true },
+        { "href": "/Gift Cards", "label": "Gift Cards", "notFound": true },
+        { "href": "/News", "label": "News", "notFound": true }
+    ],
+    "library": [
+        { "href": "/", "label": "Home" },
+        { "href": "/Collections", "label": "Collections" },
+        { "href": "/News", "label": "News and Updates" }
+    ],
+    "community": [
+        { "href": "/", "label": "Home" },
+        { "href": "/Discussions", "label": "Discussions" },
+        { "href": "/Workshop", "label": "Workshop" },
+        { "href": "/Market", "label": "Market" },
+        { "href": "/Broadcasts", "label": "Broadcasts" }
+    ]
+}
+  
