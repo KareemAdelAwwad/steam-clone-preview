@@ -13,15 +13,14 @@ import PointsShop from "./pages/client-store/PointsShop";
 import Wishlist from "./pages/client-store/Wishlist";
 import Cart from "./pages/client-store/Cart";
 
-import "./utilities/CustomPaging.css"
+import "./utilities/CustomPaging.css";
 import NotFound from "./utilities/NotFound";
-
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<MainLayout />}>
-        <Route path="/" element={<StoreLayout />}>
+      <Route path="/steam-clone-preview" element={<MainLayout />}>
+        <Route path="/steam-clone-preview" element={<StoreLayout />}>
           <Route index element={<Home />} />
           <Route path="browse" element={<Browse />} />
           <Route path="discover" element={<Discover />} />
