@@ -31,7 +31,8 @@ const router = createBrowserRouter(
       </Route>
       <Route path="*" element={<NotFound />} />
     </>
-  )
+  ),
+  { basename: "/steam-clone-preview" }
 );
 function App() {
   return <RouterProvider router={router} />;
