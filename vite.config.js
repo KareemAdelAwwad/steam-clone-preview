@@ -8,7 +8,4 @@ export default defineConfig({
     port: 3000,
     historyApiFallback: true,
   },
-  build: {
-    outDir: 'build'
-  }
 })
