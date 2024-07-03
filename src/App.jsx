@@ -19,8 +19,8 @@ import NotFound from "./utilities/NotFound";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/steam-clone-preview/" element={<MainLayout />}>
-        <Route path="/steam-clone-preview/" element={<StoreLayout />}>
+      <Route path="/" element={<MainLayout />}>
+        <Route path="/" element={<StoreLayout />}>
           <Route index element={<Home />} />
           <Route path="browse" element={<Browse />} />
           <Route path="discover" element={<Discover />} />
